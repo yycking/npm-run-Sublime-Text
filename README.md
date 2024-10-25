@@ -10,4 +10,4 @@ Just open `package.json` on your project and click script
 2. Copy to `~/Library/Application Support/Sublime Text/Packages/User`
 
 ## Limit
-* Only work on Mac *
+*Only work on Mac*
