@@ -9,3 +9,5 @@ Just open `package.json` on your project and click script
 1. Download [npmRun.py](./npmRun.py)
 2. Copy to `~/Library/Application Support/Sublime Text/Packages/User`
 
+## Limit
+* Only work on Mac *
