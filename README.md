@@ -3,7 +3,7 @@ Run NPM scripts from Sublime Text
 
 ## Usage
 Just open `package.json` on your project and click script
-![](./demp.png)
+![demo](./demo.png)
 
 ## Installation
 1. Download [npmRun.py](./npmRun.py)
