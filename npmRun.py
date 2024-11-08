@@ -39,10 +39,12 @@ class NpmRunListener(sublime_plugin.EventListener):
 
 		def run(command):
 			path = os.path.dirname(file_path)
-			cmd = f"cd {path} && npm run {command} "
 			subprocess.run(
 				shlex.split(
-					f"""osascript -e 'tell app "Terminal" to activate' -e 'tell app "Terminal" to do script "{cmd}" '"""
+					f"""osascript 
+					-e 'tell app "Terminal" to activate' 
+					-e 'tell app "Terminal" to do script "cd {path}\nnpm run {command}"'
+					"""
 				)
 			)
 
